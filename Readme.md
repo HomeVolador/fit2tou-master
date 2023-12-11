@@ -31,8 +31,14 @@
 	git branch -m main								Renombra la carpeta master a main.
 	Git status -s                                   Muestra todos los archivos que se van creando.
 	Git add .                                       Lo envía al área de ensayo. (git add index.html)
-	Git commit - m "Texto"                          Repositorio local. (git commit -m "Comienzo del proyecto")m es para la descripción
-	.gitignore                                      Pondremos todos los archivos que queremos que sean ignorados de nuestro repositorio.
+	Git commit - m "Texto"                          Repositorio local. (git commit -m "Comienzo del proyecto")m es para la descripción. 
+													'PRIMERA FOTO'
+	CREAMOS EL REPOSITORIO EN GIT HUB Y SEGUIMOS INDICACIONES.
+		git remote add origin https://github.com/HomeVolador/fit2tou-master.git
+		 git push -u origin main
+
+
+	.gitignore                                      Archivo donde pondremos todas las extensiones de archivos que queremos que sean ignorados de nuestro repositorio.
 	Git log --oneline                               Muestra los repositorios que va creando git.
 	Git branch                                      Nos indica en que rama estoy.
 	Cat nombrearchivo                               Nos muestra el contenido del archivo en el que estoy trabajando.
