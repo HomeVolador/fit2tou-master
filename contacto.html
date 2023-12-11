@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tonificar</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- *********************************************************************************************** -->
+    <header>
+        <img src="img/Logo.png" alt="Logo Fit2You">
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="fitness.html">FITNESS</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="contacto.html"class="activo">CONTACTO</a>
+        </nav>
+    </header>
+   
+    <!-- ***********************************************************Menu Hamburgesa o lateral cuando sea responsif******************************** -->
+    <div id="burger">
+        <div class="barra superior"></div>
+        <div class="barra media"></div>
+        <div class="barra inferior"></div>
+    </div>
+    <div class="menu">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <hr>
+            <a href="fitness.html">Fitness</a>
+            <hr>
+            <a href="servicios.html">Servicios</a>
+            <hr>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="copyright" >&copy;ACME</p>
+    </div>
+    <!------------------------------------------------------------------------------ CONTACO -->
+   <!-- ****************************************************************************Formulario -->
+ <div class="fila contacto">
+    <div class="col-100 flex-column-center">
+        <h2> No hay excusa para entrenaaar!!! </h2>
+        <form class="contacto">                                 <!-- Llamada al foumulario -->
+            <div class="fila">
+                <input class="usuario" type="text" placeholder="Nombre y apellidos">
+            </div>
+            <div class="fila">
+                <input class="email" type="email" placeholder="Correo electrónico">
+            </div>
+            <div class="fila flex-end">
+                <button type="submit">Enviar</button>
+            </div>
+            <div class="fila flex-center">
+                <input type="checkbox" id="condiciones">
+                <label for="condiciones">
+                    Acepto las condiciones legales.
+                </label>
+            </div>
+        </form>
+    </div>
+ </div>
+ <div class="fila">
+    <span id="legal">&nbsp;</span>
+    <div class="col-100">
+        <h1>Aviso legal</h1>
+        <p>Aviso Legal y Derechos de Autor (Copyright)
+            Este sitio web es propiedad de Fit2You, con domicilio en Badalona, y NIF 55555555V.            
+            Puedes ponerte en contacto con nosotros a través de fit@gmail.com.
+            Todos los derechos de propiedad intelectual e industrial del contenido de este sitio web son propiedad exclusiva de [Nombre de la Empresa] o de terceros autorizados. Queda prohibida la reproducción, distribución, comunicación pública y cualquier otro uso, total o parcial, sin la autorización expresa de los titulares.
+            El acceso y uso de este sitio web están sujetos a las siguientes condiciones. El usuario se compromete a utilizar el sitio de conformidad con la ley, la moral, las buenas costumbres y el presente aviso legal. Queda prohibido realizar cualquier acto que pueda dañar la imagen, los intereses y los derechos de Fit2You o de terceros, o que pueda dañar, inutilizar o sobrecargar el sitio web.
+            Todos los derechos de autor sobre el contenido de este sitio web, incluyendo pero no limitándose a textos, gráficos, logotipos, imágenes y software, son propiedad de [Nombre de la Empresa] o de sus licenciantes. Está prohibido copiar, reproducir, distribuir, transmitir o modificar el contenido de este sitio web sin el permiso expreso por escrito de los titulares de los derechos de autor.
+            Fit2yopu no se hace responsable de los daños y perjuicios que puedan derivarse del uso indebido de este sitio web o de la información contenida en el mismo. Asimismo, no se garantiza la ausencia de virus u otros elementos que puedan causar daños en los sistemas informáticos, documentos electrónicos o archivos del usuario de este sitio web.
+            Este sitio web puede contener enlaces a sitios web de terceros.No se responsabiliza del contenido, la veracidad o la legalidad de estos sitios web externos.
+            Este aviso legal se rige por la legislación española. En caso de controversia, las partes se someterán a los juzgados y tribunales de Badalona.
+        </p>
+    </div>
+</div>
+<div class="fila">
+    <span id="cookies">&nbsp;</span>
+    <div class="col-100">
+        <h1>Política de cookies</h1>
+        <p>Este sitio web utiliza cookies para mejorar la experiencia del usuario y cumplir con la normativa de protección de datos. Al continuar utilizando este sitio, aceptas nuestra política de cookies.
+
+            Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo para recordar información, como tus preferencias o datos de inicio de sesión. Utilizamos cookies para personalizar contenido, analizar el tráfico del sitio y proporcionar funciones de redes sociales.
+            
+            Puedes controlar y gestionar el uso de cookies en tu navegador. Algunos navegadores te permiten rechazar o eliminar cookies, pero esto puede afectar la funcionalidad de ciertas partes del sitio.
+            
+            Al utilizar este sitio sin cambiar la configuración de cookies en tu navegador, aceptas el uso de cookies de acuerdo con nuestra política y en cumplimiento con la normativa de protección de datos en España y Cataluña.</p>
+        
+    </div>
+</div>
+  
+    <!--******************************************************************************** Footer -->
+ <footer class="fila">
+    <!-- Organizamos en tres columnas para la información del gym -->
+    <div class="col-33">
+        <p>Fit2You Badalona</p>
+        <p class="flex-start">
+            <img class="m-r-small" src="img/map.svg" alt="Icono de mapa">
+            Av. d'Alfons XIII, 227
+        </p>
+        <p>08918 Badalona</p>
+        <p class="flex-start">
+            <img  class="m-r-small" src="img/phone.svg" alt="Icono de teléfono">
+            +34678542141
+        </p>
+        <p class="flex-start">
+            <img  class="m-r-small" src="img/mail.svg" alt="Icono de email">
+            info@Fit2You.com
+        </p>
+    </div>
+    <!-- Segunda columna -->
+    <div class="col-33">
+        <!-- Desde google Maps segunda pestaña copiar direccion -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191420.3308809814!2d1.9255750945312413!3d41.44046559999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bbfb9a7095b3%3A0xaffc560ccc608152!2sFit2you%20Badalona!5e0!3m2!1ses!2ses!4v1701602141808!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+    <!-- Tercera columna -->
+        <div class="col-33">
+        <div class="flex-around">
+            <a href="https://www.instagram.com/fit2you_gym/" target="_blank"><img class="rrss" src="img/instagram.svg" alt="Icono de Instagram"></a>
+            <img class="rrss" src="img/facebook.svg" alt="Icono de Facebook">
+            <img class="rrss" src="img/twitter.svg" alt="Icono de Twitter">
+            <img class="rrss" src="img/whatsapp.svg" alt="Icono de Whatsapp">
+            
+        </div>
+        <div class="flex-around m-t">
+            <a href="contacto.html#aviso">Aviso legal</a>
+            <a href="contacto.html#cookies">Política de cookies</a>
+        </div>
+        <p class="copyright m-t">&copy; Fit2you. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

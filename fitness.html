@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- *********************************************************************************************** -->
+    <header>
+        <img src="img/Logo.png" alt="Logo Fit2You">
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="fitness.html" class="activo">FITNESS</a>
+            <a href="servicios.html">SERVICIOS</a>
+            <a href="contacto.html">CONTACTO</a>
+        </nav>
+    </header>
+   
+    <!-- ***********************************************************Menu Hamburgesa o lateral cuando sea responsif******************************** -->
+    <div id="burger">
+        <div class="barra superior"></div>
+        <div class="barra media"></div>
+        <div class="barra inferior"></div>
+    </div>
+    <div class="menu">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <hr>
+            <a href="fitness.html">Fitness</a>
+            <hr>
+            <a href="servicios.html">Servicios</a>
+            <hr>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="copyright" >&copy;ACME</p>
+    </div>
+    <!------------------------------------------------------------------------------ Card de fitness -->
+    <div class="fila grid">
+        <div class="card">
+            <img src="img/cardTonificar.jpg" alt="Imagen tonificacion">
+            <div class="footer-card">
+                <div>
+                    <p>Tonificación</p>
+                    <p>Tono, fuerza y resistencia muscular</p>
+                    <p>Reduce grasa corporaral</p>
+                </div>
+                <a href="Tonificar.html">Más información</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/cardFuncional.jpg" alt="Imagen entreno funcional">
+            <div class="footer-card">
+                <div>
+                    <p>Entrenamiento funcional</p>
+                    <p>Aumenta velocidad y resistencia</p>
+                    <p>Optimiza tú agilidad</p>
+                </div>
+                <a href="Funcional.html">Más información</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="img/adelgaza.jpg" alt="Imagen adelgaza">
+            <div class="footer-card">
+                <div>
+                    <p>Adelgaza</p>
+                    <p>Cardio aerobico muscular</p>
+                    <p>Mejora tu estabilidad</p>
+                </div>
+                <a href="Tonificación.html">Más información</a>
+            </div>
+        </div>
+    </div>
+  
+<!--******************************************************************************** Footer -->
+<footer class="fila">
+    <!-- Organizamos en tres columnas para la información del gym -->
+    <div class="col-33">
+        <p>Fit2You Badalona</p>
+        <p class="flex-start">
+            <img class="m-r-small" src="img/map.svg" alt="Icono de mapa">
+            Av. d'Alfons XIII, 227
+        </p>
+        <p>08918 Badalona</p>
+        <p class="flex-start">
+            <img  class="m-r-small" src="img/phone.svg" alt="Icono de teléfono">
+            +34678542141
+        </p>
+        <p class="flex-start">
+            <img  class="m-r-small" src="img/mail.svg" alt="Icono de email">
+            info@Fit2You.com
+        </p>
+    </div>
+    <!-- Segunda columna -->
+    <div class="col-33">
+        <!-- Desde google Maps segunda pestaña copiar direccion -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191420.3308809814!2d1.9255750945312413!3d41.44046559999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bbfb9a7095b3%3A0xaffc560ccc608152!2sFit2you%20Badalona!5e0!3m2!1ses!2ses!4v1701602141808!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+    <!-- Tercera columna -->
+        <div class="col-33">
+        <div class="flex-around">
+            <a href="https://www.instagram.com/fit2you_gym/" target="_blank"><img class="rrss" src="img/instagram.svg" alt="Icono de Instagram"></a>
+            <img class="rrss" src="img/facebook.svg" alt="Icono de Facebook">
+            <img class="rrss" src="img/twitter.svg" alt="Icono de Twitter">
+            <img class="rrss" src="img/whatsapp.svg" alt="Icono de Whatsapp">
+            
+        </div>
+        <div class="flex-around m-t">
+            <a href="contacto.html#aviso">Aviso legal</a>
+            <a href="contacto.html#cookies">Política de cookies</a>
+        </div>
+        <p class="copyright m-t">&copy; Fit2you. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
