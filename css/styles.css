@@ -579,9 +579,9 @@ footer .copyright {
     background-color: #664626;
 }
 
-/* **********************************************************************Ficha propiedad */
+/* **********************************************************************Ficha tonificar */
 
-.propiedad {
+.tonificar {
     margin-top: 80px;
     background-image: url('../img/tonificar.jpg');
     background-size:cover;
@@ -589,16 +589,62 @@ footer .copyright {
     background-repeat: no-repeat;
 }
 
-.propiedad div:first-child {
+.tonificar div:first-child {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
-.propiedad div:first-child h1 {
+.tonificar div:first-child h1 {
     font-size: 2rem;
     color: #a97c50;
 }
 
-.propiedad div:first-child p img { 
+.tonificar div:first-child p img { 
+    width: 28px;
+    height: 28px;
+}
+/* **********************************************************************Ficha funcional */
+
+.funcional {
+    margin-top: 80px;
+    background-image: url('../img/funcional/funcional01.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.funcional div:first-child {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.funcional div:first-child h1 {
+    font-size: 2rem;
+    color: #a97c50;
+}
+
+.funcional div:first-child p img { 
+    width: 28px;
+    height: 28px;
+}
+
+/* **********************************************************************Ficha adelgazaCardio */
+.cardio {
+    margin-top: 80px;
+    background-image: url('../img/adelgazaCardio/cardio.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cardio div:first-child {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.cardio div:first-child h1 {
+    font-size: 2rem;
+    color: #a97c50;
+}
+
+.cardio div:first-child p img { 
     width: 28px;
     height: 28px;
 }
