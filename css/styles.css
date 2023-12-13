@@ -648,6 +648,72 @@ footer .copyright {
     width: 28px;
     height: 28px;
 }
+/* **********************************************************************Ficha entrenador Personal */
+.entrenadorPersonal {
+    margin-top: 80px;
+    background-image: url('../img/front1.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.entrenadorPersonal div:first-child {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.entrenadorPersonal div:first-child h1 {
+    font-size: 2rem;
+    color: #a97c50;
+}
+
+.entrenadorPersonal div:first-child p img { 
+    width: 28px;
+    height: 28px;
+}
+/* **********************************************************************Ficha Fisioterapia */
+.fisioterapia {
+    margin-top: 80px;
+    background-image: url('../img/Nest03.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fisioterapia div:first-child {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.fisioterapia div:first-child h1 {
+    font-size: 2rem;
+    color: #a97c50;
+}
+
+.fisioterapia div:first-child p img { 
+    width: 28px;
+    height: 28px;
+}
+/* **********************************************************************Ficha oposiciones */
+.oposiciones {
+    margin-top: 80px;
+    background-image: url('../img/oposicones.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.oposiciones div:first-child {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.oposiciones div:first-child h1 {
+    font-size: 2rem;
+    color: #a97c50;
+}
+
+.oposiciones div:first-child p img { 
+    width: 28px;
+    height: 28px;
+}
 
 /* ***************************************************************Carousel */
 /* tapara el contenido principal */

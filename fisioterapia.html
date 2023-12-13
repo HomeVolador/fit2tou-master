@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Fisioterapia</title>
+    <link rel="stylesheet" href="css/styles.css">   
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/main.js"></script>
 </head>
@@ -13,10 +13,10 @@
     <header>
         <img src="img/Logo.png" alt="Logo Fit2You">
         <nav>
-            <a href="index.html">INICIO</a>
-            <a href="fitness.html">FITNESS</a>
-            <a href="servicios.html"class="activo">SERVICIOS</a>
-            <a href="contacto.html">CONTACTO</a>
+            <a href="index.html">Inicio</a>
+            <a href="fitness.html">Fitness</a>
+            <a href="servicios.html"class="activo">Servicios</a>
+            <a href="contacto.html">Contacto</a>
         </nav>
     </header>
    
@@ -38,45 +38,29 @@
         </nav>
         <p class="copyright" >&copy;ACME</p>
     </div>
-    <!------------------------------------------------------------------------------ Card de fitness -->
-    <div class="fila grid">
-        <div class="card">
-            <img src="img/entrenadorPersonal.jpg" alt="Imagen entrenadorPersonal">
-            <div class="footer-card">
-                <div>
-                    <p>Entrenador Personal</p>
-                    <p>Optimizar rendimiento.</p>
-                    <p>Objetivos deportivos</p>
-                    
-                </div>
-                <a href="entrenadorPersonal.html">Más información...</a>
-            </div>
+    <!------------------------------------------------------------------------------ TONIFICAR -->
+    <div class="fila fisioterapia">
+        <div class="col-33">
+            <h1 class="m-b">Fisioterapia</h1>
+            <p class="flex-start">
+                <img class="m-r-small" src="img/fisioterapia/fisioterapia.jpg" alt="sentadillas">
+                 Fisioterapia Funcional.
+            </p>
+           
+            <p class="flex-end">                
+                <button onclick="openModal()">Ver imágenes</button>
+            </p>                     
+        </div>        
+    </div>
+    <div class="fila">
+        <div class="col-50" >
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus a molestias harum laborum, soluta culpa sapiente veritatis dicta suscipit, assumenda enim explicabo eveniet unde aliquam, consequuntur alias voluptas! Repudiandae vero blanditiis asperiores sequi consequatur magnam voluptatem dignissimos natus ab fugit sapiente eveniet accusantium animi sit omnis ullam nulla distinctio, perferendis odit a! Mollitia natus fugiat, voluptate commodi perspiciatis esse.</p>
         </div>
-
-        <div class="card">
-            <img src="img/Nest03.jpg" alt="Imagen fisioterapia">
-            <div class="footer-card">
-                <div>
-                    <p>Fisioterapia</p>
-                    <p>Prevención de lesiones</p>
-                    <p>Diversidad: reducación postural</p>
-                </div>
-                <a href="fisioterapia.html">Más información...</a>
-            </div>
-        </div>
-
-        <div class="card">
-            <img src="img/Nest02.jpg" alt="Imagen oposicones">
-            <div class="footer-card">
-                <div>
-                    <p>Preparar tú Oposición, con Fit2you!!!</p>
-                    <p>Mossos d'escuadra, Bomberos</p>
-                    <p>Policía, municipal y nacional</p>
-                </div>
-                <a href="oposiciones.html">Más información...</a>
-            </div>
+        <div class="col-50 flex-around">
+            <img src="img/fisioterapia/fisioterapia.jpg" alt="Imagen fisioterapia">
         </div>
     </div>
+   
   
 <!--******************************************************************************** Footer -->
 <footer class="fila">
@@ -117,5 +101,42 @@
         <p class="copyright m-t">&copy; Fit2you. All rights reserved.</p>
     </div>
 </footer>
+    <!-- Situaremos el Modad al final de pa paguina -->
+    <div class="overlay"></div>     <!--elemento de capa tramsparente -->
+
+    <div class="carousel">          <!--elemento modal que contendra las imagenes-->
+        <div class="slide">         <!--  Slide por que las imagemagenes se desplazaran o deslizarán     -->
+            <img src="img/carrousel01/01.jpg" alt="01">
+        </div>
+        <div class="slide">         <!--  Slide por que las imagemagenes se desplazaran     -->
+            <img src="img/carrousel01/02.jpg" alt="01">
+        </div>
+        <div class="slide">         <!--  Slide por que las imagemagenes se desplazaran     -->
+            <img src="img/carrousel01/03.jpg" alt="01">
+        </div>
+        <div class="slide">         <!--  Slide por que las imagemagenes se desplazaran     -->
+            <img src="img/carrousel01/04.jpg" alt="01">
+        </div>
+        <div class="slide">         <!--  Slide por que las imagemagenes se desplazaran     -->
+            <img src="img/carrousel01/05.jpg" alt="01">
+        </div>
+        <div class="slide">         <!--  Slide por que las imagemagenes se desplazaran     -->
+            <img src="img/carrousel01/06.jpg" alt="01">
+        </div>
+        
+        <div class="x-modad" onclick="closeModal()">
+            <img src="img/x.svg" alt="Xcerrar">
+        </div>
+
+        <div class="left-arrow" onclick="prevSlide()">
+            <img src="img/left.svg" alt="flecha derecha">
+        </div>
+        <div class="rigth-arrow" onclick="nextSlide()">
+            <img src="img/right.svg" alt="flecha derecha">
+        </div>
+
+    </div> 
+    <script src="js/carousel.js"></script>    
 </body>
+   
 </html>
